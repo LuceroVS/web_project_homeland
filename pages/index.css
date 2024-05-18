@@ -1,0 +1,228 @@
+@import url("../blocks/page.css");
+@import url("../web/inter.css");
+.logo {
+  display: flex;
+  justify-content: center;
+  /*margin-top: 20px;*/
+}
+.nav-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.text-logo {
+  color: white;
+  position: absolute;
+  font-family: "Inter";
+  font-weight: 900;
+  margin: 0%;
+  padding-top: 54px;
+}
+
+.header__title {
+  margin-top: 194px;
+  color: white;
+  margin-left: 280px;
+  width: 720px;
+  height: 200px;
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+}
+
+.header__subtitle {
+  margin-top: 32px;
+  color: white;
+  width: 720px;
+  height: 72px;
+  position: relative;
+  left: 280px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.landscape {
+  margin-top: 64px;
+  width: 984px;
+  height: 615px;
+  left: 148px;
+  position: relative;
+}
+
+.info_title {
+  color: white;
+  width: 830px;
+  height: 173.92px;
+  position: relative;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+}
+
+.info_joseph {
+  color: white;
+  margin-top: 39.98px;
+  width: 738px;
+  height: 135.66px;
+  position: relative;
+  left: 148px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.author {
+  color: white;
+  width: 732px;
+  height: 33.91px;
+  position: relative;
+  left: 148px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+.description {
+  color: white;
+  width: 722px;
+  height: 181.54px;
+  position: relative;
+  margin-top: 31.99px;
+  left: 148px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+}
+.footer {
+  color: white;
+  width: 194px;
+  height: 16px;
+  position: relative;
+  margin-top: 92px;
+  padding-bottom: 24px;
+  left: 543px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: right;
+}
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+  }
+  .nav-logo {
+    width: 23.69px;
+    height: 23.77px;
+    padding-top: 20px;
+  }
+  .text-logo {
+    width: 188.62px;
+    height: 11.1px;
+    padding-top: 60px;
+    font-weight: bold;
+  }
+  .header__title {
+    width: 228px;
+    height: 88px;
+    position: relative;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 122px;
+    padding-bottom: 16px;
+    margin: 0;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    text-align: center;
+  }
+  .header__subtitle {
+    width: 288px;
+    height: 40px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin: 0%;
+  }
+  .landscape {
+    width: 320px;
+    height: 200px;
+    top: 40px;
+    left: 0;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .info_title {
+    width: 288px;
+    height: 175px;
+    top: 64px;
+    left: 16px;
+    margin-top: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+  }
+  .info_joseph {
+    width: 288px;
+    height: 300px;
+    top: 40px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  .author {
+    width: 288px;
+    height: 34px;
+    top: 16px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+  }
+  .description {
+    width: 288px;
+    height: 442px;
+    top: 32px;
+    left: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+  }
+  .footer {
+    width: 194px;
+    height: 14px;
+    padding-top: 64px;
+    left: 63px;
+    position: relative;
+    margin: 0;
+  }
+}
