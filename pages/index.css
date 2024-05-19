@@ -1,45 +1,57 @@
 @import url("../blocks/page.css");
 @import url("../web/inter.css");
-.logo {
+
+.page {
+  width: 1280px;
+}
+.header {
+  padding-top: 34px;
+  margin-bottom: 91.06px;
   display: flex;
   justify-content: center;
-  /*margin-top: 20px;*/
 }
-.nav-logo {
+.logo {
+  height: 68.94px;
+  width: 254.84px;
+}
+.logo__img {
   width: 32px;
   height: 32px;
+  margin-left: 111.42px;
 }
-
-.text-logo {
+.logo__text {
+  width: 254.84px;
+  height: 14.09px;
   color: white;
-  position: absolute;
   font-family: "Inter";
   font-weight: 900;
-  margin: 0%;
-  padding-top: 54px;
-}
-
-.header__title {
-  margin-top: 194px;
-  color: white;
-  margin-left: 280px;
-  width: 720px;
-  height: 200px;
-  font-family: Inter;
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 100px;
   text-align: center;
 }
-
-.header__subtitle {
+.lead {
+  margin-left: 148px;
+  margin-right: 148px;
+  width: 984px;
+  height: 368px;
+}
+.lead__title {
+  color: white;
+  width: 720px;
+  height: 200px;
+  margin-left: 132px;
+  line-height: 100px;
+  font-size: 96px;
+  font-family: Inter;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.lead__subtitle {
   margin-top: 32px;
+  margin-left: 132px;
+  margin-bottom: 0px;
   color: white;
   width: 720px;
   height: 72px;
-  position: relative;
-  left: 280px;
-  gap: 0px;
   opacity: 0px;
   font-family: Inter;
   font-size: 30px;
@@ -48,20 +60,22 @@
   text-align: center;
 }
 
-.landscape {
+.image {
   margin-top: 64px;
   width: 984px;
   height: 615px;
-  left: 148px;
-  position: relative;
+  margin-left: 148px;
+  margin-right: 148px;
 }
-
-.info_title {
+.intro {
+  width: 830px;
+  height: 607px;
+  margin-left: 148px;
+}
+.intro__title {
   color: white;
   width: 830px;
   height: 173.92px;
-  position: relative;
-  left: 148px;
   gap: 0px;
   opacity: 0px;
   font-family: Inter;
@@ -71,38 +85,30 @@
   text-align: left;
 }
 
-.info_joseph {
+.intro__content {
   color: white;
-  margin-top: 39.98px;
   width: 738px;
   height: 135.66px;
-  position: relative;
-  left: 148px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   text-align: left;
 }
-.author {
+.intro__author {
   color: white;
   width: 732px;
   height: 33.91px;
-  position: relative;
-  left: 148px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   text-align: right;
 }
-.description {
+.intro__description {
   color: white;
   width: 722px;
   height: 181.54px;
-  position: relative;
-  margin-top: 31.99px;
-  left: 148px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -111,118 +117,230 @@
 }
 .footer {
   color: white;
-  width: 194px;
-  height: 16px;
-  position: relative;
-  margin-top: 92px;
-  padding-bottom: 24px;
-  left: 543px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: right;
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+}
+
+.footer__copyrights {
+  width: 194px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
 }
 @media screen and (max-width: 320px) {
   .page {
     width: 320px;
   }
-  .nav-logo {
+  .header {
+    padding-top: 20px;
+    margin-bottom: 50px;
+  }
+  .logo {
+    height: 52px;
+    width: 188px;
+  }
+  .logo__img {
     width: 23.69px;
     height: 23.77px;
-    padding-top: 20px;
+    margin-left: 82.16px;
   }
-  .text-logo {
-    width: 188.62px;
+  .logo__text {
+    width: 188px;
     height: 11.1px;
-    padding-top: 60px;
-    font-weight: bold;
   }
-  .header__title {
+  .lead {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 288px;
+    height: 144px;
+  }
+  .lead__title {
     width: 228px;
     height: 88px;
-    position: relative;
-    padding-left: 46px;
-    padding-right: 46px;
-    padding-top: 122px;
-    padding-bottom: 16px;
-    margin: 0;
+    margin-left: 30px;
     font-family: Inter;
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
     text-align: center;
   }
-  .header__subtitle {
+  .lead__subtitle {
     width: 288px;
     height: 40px;
-    left: 16px;
+    margin-left: 0px;
+    margin-top: 16px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
-    margin: 0%;
   }
-  .landscape {
+  .image {
     width: 320px;
     height: 200px;
-    top: 40px;
-    left: 0;
     gap: 0px;
     opacity: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
-  .info_title {
+  .intro {
+    width: 288px;
+    height: 1033px;
+    margin-left: 16px;
+    margin-top: 64px;
+  }
+  .intro__title {
     width: 288px;
     height: 175px;
-    top: 64px;
-    left: 16px;
-    margin-top: 0px;
     font-family: Inter;
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
     text-align: left;
   }
-  .info_joseph {
+  .intro__content {
     width: 288px;
     height: 300px;
-    top: 40px;
-    left: 16px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
-  .author {
+  .intro__author {
     width: 288px;
     height: 34px;
-    top: 16px;
-    left: 16px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
     text-align: right;
+    margin-top: 0px;
+    margin-bottom: 32px;
   }
-  .description {
+  .intro__description {
     width: 288px;
     height: 442px;
-    top: 32px;
-    left: 16px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
     text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .footer {
+    margin-top: 64px;
+  }
+  .footer__copyrights {
     width: 194px;
-    height: 14px;
-    padding-top: 64px;
-    left: 63px;
-    position: relative;
-    margin: 0;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .page {
+    width: 768px;
+  }
+  .header {
+    padding-top: 30px;
+    margin-bottom: 90px;
+  }
+  .logo {
+    height: 66px;
+    width: 254px;
+  }
+  .logo__img {
+    width: 32px;
+    height: 30.17px;
+    margin-left: 111px;
+  }
+  .logo__text {
+    width: 254.84px;
+    height: 14.09px;
+  }
+  .lead {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 720px;
+    height: 255px;
+  }
+  .lead__title {
+    width: 530px;
+    height: 158px;
+    margin-left: 95px;
+    line-height: 79px;
+    font-size: 75px;
+  }
+  .lead__subtitle {
+    width: 720px;
+    height: 72px;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .image {
+    width: 768px;
+    height: 480px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .intro {
+    width: 720px;
+    height: 573px;
+    margin-left: 24px;
+  }
+  .intro__title {
+    width: 707px;
+    height: 147px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .intro__content {
+    width: 707px;
+    height: 136px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .intro__author {
+    width: 707px;
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  .intro__description {
+    width: 720px;
+    height: 182px;
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .footer {
+    margin-top: 88px;
+  }
+  .footer__copyrights {
+    width: 194px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
