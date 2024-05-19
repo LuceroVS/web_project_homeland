@@ -1,0 +1,47 @@
+.logo {
+  height: 68.94px;
+  width: 254.84px;
+}
+.logo__img {
+  width: 32px;
+  height: 32px;
+  margin-left: 111.42px;
+}
+.logo__text {
+  width: 254.84px;
+  height: 14.09px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 900;
+  text-align: center;
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    height: 52px;
+    width: 188px;
+  }
+  .logo__img {
+    width: 23.69px;
+    height: 23.77px;
+    margin-left: 82.16px;
+  }
+  .logo__text {
+    width: 188px;
+    height: 11.1px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .logo {
+    height: 66px;
+    width: 254px;
+  }
+  .logo__img {
+    width: 32px;
+    height: 30.17px;
+    margin-left: 111px;
+  }
+  .logo__text {
+    width: 254.84px;
+    height: 14.09px;
+  }
+}
