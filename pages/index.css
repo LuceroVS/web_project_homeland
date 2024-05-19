@@ -1,6 +1,6 @@
+@import url("../vendor/normalize.css");
 @import url("../blocks/page.css");
 @import url("../web/inter.css");
-@import url("../vendor/normalize.css");
 
 .page {
   width: 1280px;
