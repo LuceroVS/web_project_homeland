@@ -7,8 +7,6 @@
   color: white;
   width: 830px;
   height: 173.92px;
-  gap: 0px;
-  opacity: 0;
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
@@ -96,7 +94,7 @@
     margin-bottom: 0px;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
   .intro {
     width: 720px;
     height: 573px;
