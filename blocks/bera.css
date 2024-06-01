@@ -4,7 +4,7 @@
   grid-template-rows: repeat(3, 1fr);
   width: 984px;
   height: 756px;
-  margin: 0px 148px 80px 148px;
+  margin: 0px 0px 80px 0px;
   grid-column-gap: 40px;
 }
 .berea__title {
@@ -238,7 +238,7 @@
     grid-template-rows: repeat(2, 1fr);
     width: 720px;
     height: 639px;
-    margin: 0px 24px 72px 24px;
+    margin: 0px 0px 72px 0px;
     grid-column-gap: 28px;
   }
   .berea__title {

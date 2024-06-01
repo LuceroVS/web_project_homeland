@@ -3,8 +3,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   width: 984px;
-  height: 859px;
-  margin: 0px 145px 80px 151px;
+  height: 756px;
+  margin: 0%;
   grid-column-gap: 40px;
 }
 .cdmx__title {
@@ -118,7 +118,7 @@
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     width: 320px;
-    height: 1217px;
+    height: 1226px;
     margin: 0px 0px 65px 0px;
   }
   .cdmx__title {
@@ -232,10 +232,10 @@
   .cdmx {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 720px;
-    height: 639px;
-    margin: 0px 24px 72px 24px;
+    height: 530px;
+    margin: 0px 0px 72px 0px;
     grid-column-gap: 28px;
   }
   .cdmx__title {
@@ -297,8 +297,8 @@
   }
   .cdmx__information {
     width: 352px;
-    height: 212px;
-    margin: 0px 0px 25px 0px;
+    height: 222px;
+    margin: 0px 0px 15px 0px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -319,7 +319,6 @@
     grid-column: 1;
     grid-row: 2;
     margin-top: 388px;
-    margin: 0%;
     width: 289px;
     height: 48px;
     background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
