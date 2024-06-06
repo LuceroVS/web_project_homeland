@@ -1,12 +1,10 @@
 .page {
   background-color: #2a2c2f;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 1280px;
   font-size: 16px;
   line-height: 20px;
   font-family: "Inter", Arial, sans-serif;
-
-  width: 1280px;
 }
 @media screen and (max-width: 320px) {
   .page {
