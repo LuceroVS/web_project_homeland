@@ -6,22 +6,22 @@
   margin-right: 148px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .image__landscape {
     width: 320px;
     height: 200px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .image__landscape {
     width: 768px;
     height: 480px;
     margin-top: 30px;
     margin-bottom: 90px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

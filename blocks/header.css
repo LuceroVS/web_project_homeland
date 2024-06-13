@@ -4,13 +4,13 @@
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header {
     padding-top: 20px;
     margin-bottom: 50px;
   }
 }
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .header {
     padding-top: 30px;
     margin-bottom: 90px;
