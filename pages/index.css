@@ -1,6 +1,5 @@
 @import url("../vendor/normalize.css");
 @import url("../web/inter.css");
-@import url("../blocks/body.css");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/logo.css");
@@ -10,3 +9,6 @@
 @import url("../blocks/gallery.css");
 @import url("../blocks/places.css");
 @import url("../blocks/footer.css");
+body {
+  margin: 0;
+}
